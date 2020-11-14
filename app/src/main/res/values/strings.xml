@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GetSensorInfo</string>
+    <string name="gyro_switch">ON</string>
+    <string name="gyro_pitch">Pitch(x):</string>
+    <string name="gyro_roll">Roll(y):</string>
+    <string name="gyro_yaw">Yaw(z):</string>
+    <string name="gyro_timestamp">timestamp:</string>
+    <string name="gyro_name">Gyro</string>
+    <string name="acc_x">acc_x:</string>
+    <string name="acc_y">acc_y:</string>
+    <string name="acc_z">acc_z:</string>
+    <string name="acc_timestamp">timestamp:</string>
+    <string name="acc_name">Accelerometer</string>
+    <string name="magnetic_x">mag_x:</string>
+    <string name="magnetic_y">mag_y:</string>
+    <string name="magnetic_z">mag_z:</string>
+    <string name="magnetic_timestamp">timestamp:</string>
+    <string name="rot_x">rot_x:</string>
+    <string name="rot_y">rot_y:</string>
+    <string name="rot_z">rot_z:</string>
+    <string name="rot_timestamp">timestamp:</string>
+    <string name="pre_val">pressure:</string>
+    <string name="pre_timestamp">timestamp:</string>
+    <string name="lig_val">light intensity:</string>
+    <string name="lig_timestamp">timestamp:</string>
+    <string name="dis_val">distance:</string>
+    <string name="dis_timestamp">timestamp:</string>
+</resources>

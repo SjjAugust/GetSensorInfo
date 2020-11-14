@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        app:cardCornerRadius="@dimen/card_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/gold"
+                    android:id="@+id/txt_temp_name"
+                    android:text="@string/gyro_name" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/textview_margin"
+                    android:id="@+id/txt_show_temp"
+                    android:text="@string/pre_val"/>
+
+                <TextView
+                    android:id="@+id/txt_show_temp_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="@dimen/textview_margin"
+                    android:layout_weight="1"
+                    android:text="@string/pre_timestamp" />
+
+            </LinearLayout>
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_temp_switch"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="4dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:text="@string/gyro_switch" />-->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
